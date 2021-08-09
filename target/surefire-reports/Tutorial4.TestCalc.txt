@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Tutorial4.TestCalc
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in Tutorial4.TestCalc
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! - in Tutorial4.TestCalc
+testSubtract  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at Tutorial4.TestCalc.testSubtract(TestCalc.java:18)
+
