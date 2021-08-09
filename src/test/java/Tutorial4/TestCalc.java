@@ -10,4 +10,11 @@ class TestCalc {
 		
 		assertTrue(cal.add(5, 5) == 10);
 	}
+
+	@org.junit.jupiter.api.Test
+	void test() {
+		Calc cal = new Calc();
+		
+		assertTrue(cal.subtract(10, 5) == 5);
+	}
 }
